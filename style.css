@@ -1,0 +1,89 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #1a1a1a;
+  color: #9dff7b;
+}
+
+.header-div {
+  font-family: 'Arial', serif;
+  background-color: #c93864;
+  color: #000000;
+}
+
+.timer {
+  font-family: 'Arial', serif;
+  background-color: #ffdb85;
+  color: #000000;
+}
+
+.logo-span {
+  color: #9dff7b;
+}
+
+.search-bar {
+  border-radius: 5px;
+  background-color: #32303f;
+  color: #9dff7b;
+  border-style: none;
+  padding: 6px;
+}
+
+.news-link {
+  text-decoration: none;
+  color: #9dff7b;
+  font-weight: lighter;
+}
+.aboutus-link {
+  text-decoration: none;
+  color: #9dff7b;
+  font-weight: lighter;
+}
+.bookmark-link {
+  text-decoration: none;
+  color: #9dff7b;
+  font-weight: lighter;
+}
+
+hr {
+  border-color: #9dff7b;
+}
+
+.games-span {
+  color: #9dff7b;
+}
+
+.sort-div {
+  border: 1px solid;
+  border-color: #9dff7b;
+}
+
+.button-div {
+  background-color: #000000;
+}
+
+.mostpopular-button {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000000;
+  border-color: #9dff7b;
+  color: #9dff7b;
+}
+
+.genre-button {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000000;
+  border-style: none;
+  color: #9dff7b;
+}
+
+.three-games {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000000;
+  border-color: #9dff7b;
+  color: #9dff7b;
+  border-style: solid;
+}
+
+a {
+  color: #9dff7b;
+  text-decoration: none;
+}
