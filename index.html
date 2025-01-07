@@ -5,23 +5,44 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./style.css" />
-  <title>Game News</title>
+  <link rel="shortcut icon" href="./imgs/fav.png" type="image/x-icon">
+  <title>playverse | Latest Buzz</title>
 </head>
 
 <body>
   <!-- header-->
-  <div class="header">
-    <h1 class="header-logo">Playverse</h1>
-    <input class="input-search" type="text" name="search" placeholder="search...">
-    <div class="nav-links">
-      <a href="#">News</a>
-      <a href="#">About us</a>
-    </div>
+  <header class="site-header">
+    <nav class="nav-bar">
+      <div class="left">
+        <div class="logo-container">
+          <img src="./imgs/logo.png" alt="Playverse gaming console" class="logo">
+          <h1 class="logo-text">Playverse</h1>
+        </div>
+        <!-- Search form -->
+        <form role="search" aria-label="Site search">
+          <label for="search-input" class="sr-only">Search</label>
+          <input id="search-input" class="search-input" type="text" name="search" placeholder="Search..." />
+        </form>
+      </div>
+      <!-- Navigation links -->
+      <div class="right">
+        <ul class="nav-links">
+          <li>
+            <span class="fa-solid fa-bookmark" aria-label="bookmark" role="button"></span>
+          </li>
+          <li>
+            <a href="/about-us" class="nav-link">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-  </div>
-
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="./app.js" defer></script>
 </body>
 
 </html>
